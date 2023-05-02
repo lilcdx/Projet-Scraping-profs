@@ -41,9 +41,7 @@ def listUrl(driver):
     list_url = []
     # 2 classes différentes correspondent aux div de chaque module : on récupère le nombre pour pouvoir les parcourir
     nbModules = len(driver.find_elements(By.XPATH, "/html/body/div[2]/div/div/div/div[2]/div/div[5]/div[3]/div/div[2]/div[2]/div[@class='item separateurUE ']")) 
-    print(nbModules)
     nbModules += len(driver.find_elements(By.XPATH, "/html/body/div[2]/div/div/div/div[2]/div/div[5]/div[3]/div/div[2]/div[2]/div[@class='item ']")) 
-    print(nbModules)
     for i in range(1, nbModules) : 
         #parcours du nombre de module et ajout de l'url qui lui correspond à la liste
         module = driver.find_element(By.XPATH,  f'/html/body/div[2]/div/div/div/div[2]/div/div[5]/div[3]/div/div[2]/div[2]/div[{i}]/div[2]/ul/li[4]/a')
@@ -114,30 +112,34 @@ def createProf(driver, prenom, nom, mail) :
 
 def sortProf(listProf, newprof, driver) :
     inList = False
+    #prof deja present
     for prof in listProf :
         #print(prof)
         if prof['prenom'] == newprof['prenom'] and prof['nom'] == newprof['nom'] :
             print('prof existant')
             inList = True
             newmodule = newprof['listModule'][0]
-            prof['listModule'].append(newmodule)
-            prof['totalH'] = prof['totalH'] + newmodule['nbHeures']/newmodule['nbProfs']
+            prof['listModule'].append(newmodule) #ajout du nouveau module
+            prof['totalH'] = prof['totalH'] + newmodule['nbHeures']/newmodule['nbProfs'] # mise a jour du nombre d'heures
             break
 
+    # prof pas encore present dans la liste
     if not(inList) :
         print('nouveau prof')
         print(newprof)
-        listProf.append(newprof)
-        newprof["articles"] = getArticles(newprof, driver)
+        listProf.append(newprof) #ajout à la liste
+        newprof["articles"] = getArticles(newprof, driver) # récupération de ses articles
 
 def getArticles(prof, driver) :
+    """récupération du lien et du nombre d'articles du prof en parametre"""
     driver.execute_script("window.open('');") # ouverture du lien dans une nouvelle fenêtre
     handles = driver.window_handles
     driver.switch_to.window(handles[-1])
     prenom = prof['prenom']
     nom = prof['nom']
-    driver.get(f"https://hal.science/search/index?q={prenom}+{nom}")
+    driver.get(f"https://hal.science/search/index?q={prenom}+{nom}") #recherche du prof dans hal
     try :
+        # nb articles
         nbArticles = cleanResult(driver.find_element(By.XPATH,"/html/body/main/section/section[2]/div[1]/div[1]/span").text)
         articles = findAuteur(int(nbArticles), prenom, nom, driver)
         if articles == {} : #cas ou on obtient un résultat pour le prof, mais aucun article de lui
@@ -152,6 +154,7 @@ def getArticles(prof, driver) :
 
 
 def findAuteur(nbArticles, prenom, nom, driver) :
+    """renvoie le nombre d'articles et le lien des articles d'un prof"""
     articles = {}
     for i in range(1, 30) :
         time.sleep(2)
@@ -174,6 +177,7 @@ def findAuteur(nbArticles, prenom, nom, driver) :
     return articles
 
 def getNbArticles(url, driver) :
+    """renvoie le nombre d'articles dans hal pour une url"""
     driver.execute_script("window.open('');") # ouverture du lien dans une nouvelle fenêtre
     handles = driver.window_handles
     driver.switch_to.window(handles[-1])
@@ -199,8 +203,10 @@ def cleanResult(result) :
     return res[0]
 
 def moduleDict(mail, module, nbHeures) :
+    """renvoie un dictionnaire correspondant aux informations d'un module"""
     mail = cleanMail(mail)
-    if type(mail) is list :
+    # cas ou il y a plusieurs profs responsables
+    if type(mail) is list : 
         nbProfs = len(mail)
     else :
         nbProfs = 1
@@ -209,6 +215,7 @@ def moduleDict(mail, module, nbHeures) :
 
 
 def getName(mail) :
+    """renvoie une liste dont le premier élément correspond au prenom et le 2e au nom du prof"""
     if "@univ-smb.fr" in mail :
         mail = mail.replace('@univ-smb.fr', "")
         name = mail.split('.')
@@ -220,10 +227,12 @@ def getName(mail) :
     return name
 
 def cleanName(name) :
+    """permet d'avoir le même format pour tout les noms"""
     name = name.strip()
     return name.capitalize()
 
 def getNbHeuresPresentiel(driver):
+    """retourne le nombre d'heures en presentiel qui est renseigné sur le site"""
     divNbHeures = driver.find_elements(By.XPATH, "/html/body/div[2]/div/div/div/div[2]/div/div[5]/div[3]/div/div[2]/div[2]/div[5]/div[@class='field nbHeures']")
     nbHeures = driver.find_element(By.XPATH, f'/html/body/div[2]/div/div/div/div[2]/div/div[5]/div[3]/div/div[2]/div[2]/div[5]/div[{len(divNbHeures)-1}]/div[2]').text
     return float(nbHeures)
@@ -232,18 +241,25 @@ def getNbHeuresPresentiel(driver):
 #### REPRESENTATION GRAPHIQUE ####
 
 def graph(jsonPath) :
+    """affichage de deux graphiques : volume horaire pour chaque prof et nombre d'articles pour ceux qui en ont"""
     with open(jsonPath,"r") as f:
         data = json.load(f)
 
-    sorted_data = sorted(data, key=lambda d: d['nom'])
+    sorted_data = sorted(data, key=lambda d: d['nom']) #trié par ordre alphabetique des noms
+    
+    # graphique des heures
     names1 = []
     values1 = []
     colors1 = []
-    graphHeures(sorted_data, names1, values1, colors1)
+    graphHeures(sorted_data, names1, values1, colors1) 
+
+    #graphique des articles
     names2 = []
     values2 = []
     colors2 = []
     graphArticles(sorted_data, names2, values2, colors2)
+
+    #creation des 2 figures
     fig, (f1, f2) = plt.subplots(1, 2, figsize=(10,20))
     fig.suptitle("Heures de cours en présentiel et nombre d'articles des profs d'IDU")
     f1.barh(names1, values1, color = colors1)
@@ -252,8 +268,8 @@ def graph(jsonPath) :
     plt.show()
 
 def graphHeures(data, names, values, colors) :
-    maxValue = getMaxValue1(data, 'totalH')
-    print(maxValue)
+    """permet de recuperer les valeurs des abscisses et des oronnees pour le graphe des heures, ainsi que la couleur de chaque barre"""
+    maxValue = getMaxValue1(data, 'totalH') # valeur maximum(utile pour le gradient de couleur)
     for prof in data :
         name = prof['prenom'] + ' ' + prof['nom']
         value = prof['totalH']
@@ -262,6 +278,7 @@ def graphHeures(data, names, values, colors) :
         colors.append(gradient(value, maxValue))
 
 def graphArticles(data, names, values, colors) :
+    """permet de recuperer les valeurs des abscisses et des oronnees pour le graphe des articles, ainsi que la couleur de chaque barre"""
     maxValue = getMaxValue2(data, 'articles', 'nbArticles')
     print(maxValue)
     for prof in data :
@@ -273,6 +290,7 @@ def graphArticles(data, names, values, colors) :
             colors.append(gradient(value, maxValue))
 
 def getMaxValue1(data, key1) :
+    """renvoie la valeur maximum d'un dictionnaire pour la cle key1"""
     allValues = []
     for e in data :
         value = e[key1]
@@ -280,7 +298,8 @@ def getMaxValue1(data, key1) :
 
     return max(allValues)
 
-def getMaxValue2(data, key1, key2 = None) :
+def getMaxValue2(data, key1, key2) :
+    """renvoie la valeur maximum d'un dictionnaire pour la cle key1"""
     allValues = []
     for e in data :
         print(e)
