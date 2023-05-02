@@ -328,7 +328,7 @@ if __name__ == "__main__" :
     # driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
 
     url = "https://www.polytech.univ-smb.fr/intranet/scolarite/programmes-ingenieur.html"
-    login = "cadouxli"
-    mdp = "M4nd4bae4Y5J9_"
+    login = ""
+    mdp = ""
     # connexion(login, mdp, url, driver)
     graph("Ressources/Infos_profs_IDU.json")
