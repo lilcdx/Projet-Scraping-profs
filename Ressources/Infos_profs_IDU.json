@@ -1,0 +1,697 @@
+[
+   {
+      "prenom": "Muriel",
+      "nom": "Yvenat",
+      "listModule": [
+         {
+            "module": "LANG500 : Soutien Anglais - Tutoring in English",
+            "nbHeures": 12.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG501 : Anglais - English",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG600 : Soutien : Anglais - Tutoring in English",
+            "nbHeures": 12.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG601 : Anglais - English",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG700 : Soutien : Anglais - Tutoring in English",
+            "nbHeures": 6.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG701 : Anglais (Niveau B2 non atteint) - English (below B2 level)",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG800 : Soutien : Anglais - Tutoring in English",
+            "nbHeures": 6.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG801 : Anglais (Niveau B2 non atteint) - English (Below B2 Level)",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG802 : Langues vivantes (Niveau B2) - Foreign languages (B2 level)",
+            "nbHeures": 35.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG901 : Anglais (Niveau TOEIC non atteint) - English",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG902 : Langues (Niveau TOEIC atteint) - Foreing Language (above TOEIC Level)",
+            "nbHeures": 35.0,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 154.25,
+      "articles": null
+   },
+   {
+      "prenom": "Christophe",
+      "nom": "Lambert",
+      "listModule": [
+         {
+            "module": "LANG500 : Soutien Anglais - Tutoring in English",
+            "nbHeures": 12.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG501 : Anglais - English",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG600 : Soutien : Anglais - Tutoring in English",
+            "nbHeures": 12.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG601 : Anglais - English",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG700 : Soutien : Anglais - Tutoring in English",
+            "nbHeures": 6.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG701 : Anglais (Niveau B2 non atteint) - English (below B2 level)",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG702 : Langues vivantes (Niveau B2) - Foreign languages (B2 level)",
+            "nbHeures": 35.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG800 : Soutien : Anglais - Tutoring in English",
+            "nbHeures": 6.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG801 : Anglais (Niveau B2 non atteint) - English (Below B2 Level)",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG802 : Langues vivantes (Niveau B2) - Foreign languages (B2 level)",
+            "nbHeures": 35.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG901 : Anglais (Niveau TOEIC non atteint) - English",
+            "nbHeures": 40.5,
+            "nbProfs": 2
+         },
+         {
+            "module": "LANG902 : Langues (Niveau TOEIC atteint) - Foreing Language (above TOEIC Level)",
+            "nbHeures": 35.0,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 171.75,
+      "articles": {
+         "nbArticles": 112,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=174408"
+      }
+   },
+   {
+      "prenom": "Jean-baptiste",
+      "nom": "Evrot",
+      "listModule": [
+         {
+            "module": "SHES501 : Sport - Sport",
+            "nbHeures": 21.0,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 10.5,
+      "articles": null
+   },
+   {
+      "prenom": "Francoise",
+      "nom": "Ducoeur",
+      "listModule": [
+         {
+            "module": "SHES501 : Sport - Sport",
+            "nbHeures": 21.0,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 10.5,
+      "articles": null
+   },
+   {
+      "prenom": "Elodie",
+      "nom": "Gardet",
+      "listModule": [
+         {
+            "module": "SHES505 : Simulation de gestion d'entreprise - Business Game",
+            "nbHeures": 19.5,
+            "nbProfs": 1
+         },
+         {
+            "module": "SHES601 : Gestion financi\u00e8re - Introduction to Accounting and Corporate Finance",
+            "nbHeures": 9.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "SHES602 : Initiation au droit - Introduction to Law",
+            "nbHeures": 4.5,
+            "nbProfs": 1
+         },
+         {
+            "module": "SHES704 : Cr\u00e9ativit\u00e9 et Management de l'innovation - Creativity and innovation management",
+            "nbHeures": 25.5,
+            "nbProfs": 1
+         },
+         {
+            "module": "SHES803 : Th\u00e9orie des organisations - Organization theory",
+            "nbHeures": 6.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 64.5,
+      "articles": {
+         "nbArticles": 5,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=1053804"
+      }
+   },
+   {
+      "prenom": "Herve",
+      "nom": "Boileau",
+      "listModule": [
+         {
+            "module": "DDRS501 : D\u00e9veloppement Durable - Sustainable Development",
+            "nbHeures": 9.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 9.0,
+      "articles": {
+         "nbArticles": 3,
+         "url": "https://hal.science/search/index/?q=*&authFullName_s=Herv%C3%A9%20Boileau"
+      }
+   },
+   {
+      "prenom": "Francois",
+      "nom": "Leplus",
+      "listModule": [
+         {
+            "module": "EASI501 : Electricit\u00e9 - Electrical Engineering",
+            "nbHeures": 12.0,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 6.0,
+      "articles": null
+   },
+   {
+      "prenom": "Christelle",
+      "nom": "Kempf-coco",
+      "listModule": [
+         {
+            "module": "EASI501 : Electricit\u00e9 - Electrical Engineering",
+            "nbHeures": 12.0,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 6.0,
+      "articles": null
+   },
+   {
+      "prenom": "Ammar",
+      "nom": "Mian",
+      "listModule": [
+         {
+            "module": "INFO501 : Num\u00e9ration et Algorithmique - Number representation and algorithm design",
+            "nbHeures": 16.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 16.0,
+      "articles": {
+         "nbArticles": 4,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=1150531"
+      }
+   },
+   {
+      "prenom": "Flavien",
+      "nom": "Vernier",
+      "listModule": [
+         {
+            "module": "INFO502 : Bases de donn\u00e9es - Data base",
+            "nbHeures": 12.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "MATH531 : Graphes et Langages - Graphs Theory and Language",
+            "nbHeures": 16.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO631 : Logique et Programmation - Logic Programming",
+            "nbHeures": 20.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO832 : Qualit\u00e9 et tests logiciel - Data and Software Quality Assurance",
+            "nbHeures": 16.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 64.0,
+      "articles": {
+         "nbArticles": 52,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=15546"
+      }
+   },
+   {
+      "prenom": "Catherine",
+      "nom": "Adloff",
+      "listModule": [
+         {
+            "module": "MATH500 : Remise \u00e0 niveau Math\u00e9matiques - Mathematics refresher course",
+            "nbHeures": 21.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "MATH501 : Math\u00e9matiques - Mathematics",
+            "nbHeures": 19.5,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 40.5,
+      "articles": null
+   },
+   {
+      "prenom": "Stephane",
+      "nom": "Marteau",
+      "listModule": [
+         {
+            "module": "EASI541a : Automatisation - Automation",
+            "nbHeures": 20.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 20.0,
+      "articles": {
+         "nbArticles": 11,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=912348"
+      }
+   },
+   {
+      "prenom": "Kave",
+      "nom": "Salamatian",
+      "listModule": [
+         {
+            "module": "ISOC531 : Soci\u00e9t\u00e9s num\u00e9riques - Digital society",
+            "nbHeures": 4.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "ISOC631 : Plateformes collaboratives - Collaborative platforms",
+            "nbHeures": 12.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO731 : S\u00e9curit\u00e9 et Cryptographie - Security and cryptography",
+            "nbHeures": 4.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO743a : R\u00e9seaux et syst\u00e8mes r\u00e9partis - Computer networks and distributed systems",
+            "nbHeures": 4.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "ISOC731 : \u00c9conomie et gouvernance de la donn\u00e9e - Economy and data governance",
+            "nbHeures": 4.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 28.0,
+      "articles": {
+         "nbArticles": 84,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=1328"
+      }
+   },
+   {
+      "prenom": "Ilham",
+      "nom": "Alloui",
+      "listModule": [
+         {
+            "module": "PROJ531 : Gestion de projets - Project management",
+            "nbHeures": 28.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO834 : Bases de donn\u00e9es distribu\u00e9es - Distributed databases.",
+            "nbHeures": 24.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 52.0,
+      "articles": {
+         "nbArticles": 6,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=864119"
+      }
+   },
+   {
+      "prenom": "Alexandre",
+      "nom": "Bascop",
+      "listModule": [
+         {
+            "module": "MATH641a : Math\u00e9matiques - Mathematics",
+            "nbHeures": 18.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "MATH741a : Probabilit\u00e9s et statistiques - Probability and statistic",
+            "nbHeures": 18.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 36.0,
+      "articles": null
+   },
+   {
+      "prenom": "Sylvie",
+      "nom": "Galichet",
+      "listModule": [
+         {
+            "module": "PROJ631 : Projet Algorithmique - Algorithmic project",
+            "nbHeures": 42.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO831 : Informatique d\u00e9cisionnelle - Business-intelligence",
+            "nbHeures": 12.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "ISOC831 : Dimension m\u00e9tiers - Business dimension",
+            "nbHeures": 30.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO931 : Optimisation et aide \u00e0 la d\u00e9cision multicrit\u00e8re - Optimization and multicriteria decision aiding",
+            "nbHeures": 16.0,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 86.0,
+      "articles": {
+         "nbArticles": 134,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=1789"
+      }
+   },
+   {
+      "prenom": "Lionel",
+      "nom": "Valet",
+      "listModule": [
+         {
+            "module": "INFO633 : APP - Bases de donn\u00e9es et technologies web - Databases and Web technologies",
+            "nbHeures": 20.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 20.0,
+      "articles": {
+         "nbArticles": 30,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=874339"
+      }
+   },
+   {
+      "prenom": "Sorana",
+      "nom": "Cimpan",
+      "listModule": [
+         {
+            "module": "INFO641a : Conception et Programmation orient\u00e9e objet - Object-oriented design and Programming",
+            "nbHeures": 20.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO732 : Comportement et Mod\u00e9lisation Dynamique - Behaviour and dynamic modelling",
+            "nbHeures": 24.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "DATA732 : Analyse et visualisation de donn\u00e9es - Data analysis and data visualization",
+            "nbHeures": 23.5,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 67.5,
+      "articles": {
+         "nbArticles": 9,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=8777"
+      }
+   },
+   {
+      "prenom": "Sebastien",
+      "nom": "Monnet",
+      "listModule": [
+         {
+            "module": "INFO632 : Syst\u00e8mes d\u2019exploitation et Virtualisation - Operating systems and Virtualization",
+            "nbHeures": 16.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "PROJ731 : Flux de Donn\u00e9es et Acc\u00e8s Concurrents - Data stream and Concurrency",
+            "nbHeures": 16.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO833 : Syst\u00e8mes distribu\u00e9s \u00e0 large \u00e9chelle - Large-scale distributed systems",
+            "nbHeures": 15.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO931 : Optimisation et aide \u00e0 la d\u00e9cision multicrit\u00e8re - Optimization and multicriteria decision aiding",
+            "nbHeures": 16.0,
+            "nbProfs": 2
+         },
+         {
+            "module": "INFO932 : Calcul haute performance et Cloud Computing - High-Performance Computing and Cloud Computing",
+            "nbHeures": 24.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 79.0,
+      "articles": {
+         "nbArticles": 6,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=1249710"
+      }
+   },
+   {
+      "prenom": "Marc-philippe",
+      "nom": "Huget",
+      "listModule": [
+         {
+            "module": "PROJ632 : Projet Data Science - Data Science Project",
+            "nbHeures": 30.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO734 : D\u00e9veloppement Full Stack - Full Stack Development",
+            "nbHeures": 24.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "DATA831 : Big Data - Big Data",
+            "nbHeures": 12.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "PROJ831 : Projet Informatique Donn\u00e9es et Usages - Database and use Project",
+            "nbHeures": 36.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "PROJ932 : Projet Data Science - Data Science Project",
+            "nbHeures": 40.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 142.0,
+      "articles": {
+         "nbArticles": 18,
+         "url": "https://hal.science/search/index/?q=*&authFullName_s=Marc-Philippe%20Huget"
+      }
+   },
+   {
+      "prenom": "Hugues",
+      "nom": "Favreliere",
+      "listModule": [
+         {
+            "module": "LANG702 : Langues vivantes (Niveau B2) - Foreign languages (B2 level)",
+            "nbHeures": 35.0,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 17.5,
+      "articles": {
+         "nbArticles": 54,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=176083"
+      }
+   },
+   {
+      "prenom": "Carole",
+      "nom": "Mislin",
+      "listModule": [
+         {
+            "module": "SHES703 : Ressources et dynamique professionnelles - Professional resources and dynamics",
+            "nbHeures": 4.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 4.0,
+      "articles": null
+   },
+   {
+      "prenom": "Abdourrahmane",
+      "nom": "Atto",
+      "listModule": [
+         {
+            "module": "DATA731 : Mod\u00e9lisation Stochastique - Stochastic modeling",
+            "nbHeures": 24.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "INFO831 : Informatique d\u00e9cisionnelle - Business-intelligence",
+            "nbHeures": 12.0,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 30.0,
+      "articles": {
+         "nbArticles": 13,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=1075304"
+      }
+   },
+   {
+      "prenom": "Michel",
+      "nom": "Ambert",
+      "listModule": [
+         {
+            "module": "SHES802 : Syst\u00e8me de Management Int\u00e9gr\u00e9 QSE (Qualit\u00e9 S\u00e9curit\u00e9 Environnement) - Integrated Management System QSE (Quality Safety Environment)",
+            "nbHeures": 10.5,
+            "nbProfs": 2
+         }
+      ],
+      "totalH": 5.25,
+      "articles": {
+         "nbArticles": 6,
+         "url": "https://hal.science/search/index/?q=*&authFullName_s=Michel%20Ambert"
+      }
+   },
+   {
+      "prenom": "Alexandre",
+      "nom": "Benoit",
+      "listModule": [
+         {
+            "module": "DATA832 : Machine Learning - Machine Learning",
+            "nbHeures": 12.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "DATA931 : Machine Learning - Machine Learning",
+            "nbHeures": 16.0,
+            "nbProfs": 1
+         },
+         {
+            "module": "ISOC931 : Innovation et Recherche - Research and Innovation",
+            "nbHeures": 20.0,
+            "nbProfs": 1
+         }
+      ],
+      "totalH": 48.0,
+      "articles": {
+         "nbArticles": 81,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=6090"
+      }
+   },
+   {
+      "prenom": "Marx",
+      "nom": "Chhay",
+      "listModule": [
+         {
+            "module": "PROJ901 : Projet Recherche et D\u00e9veloppement - R and D Project",
+            "nbHeures": 40.0,
+            "nbProfs": 4
+         }
+      ],
+      "totalH": 10.0,
+      "articles": {
+         "nbArticles": 8,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=944393"
+      }
+   },
+   {
+      "prenom": "Guillaume",
+      "nom": "Ginolhac",
+      "listModule": [
+         {
+            "module": "PROJ901 : Projet Recherche et D\u00e9veloppement - R and D Project",
+            "nbHeures": 40.0,
+            "nbProfs": 4
+         }
+      ],
+      "totalH": 10.0,
+      "articles": {
+         "nbArticles": 112,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=740395"
+      }
+   },
+   {
+      "prenom": "Emile",
+      "nom": "Roux",
+      "listModule": [
+         {
+            "module": "PROJ901 : Projet Recherche et D\u00e9veloppement - R and D Project",
+            "nbHeures": 40.0,
+            "nbProfs": 4
+         }
+      ],
+      "totalH": 10.0,
+      "articles": {
+         "nbArticles": 49,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=19062"
+      }
+   },
+   {
+      "prenom": "Philippe",
+      "nom": "Saffre",
+      "listModule": [
+         {
+            "module": "PROJ901 : Projet Recherche et D\u00e9veloppement - R and D Project",
+            "nbHeures": 40.0,
+            "nbProfs": 4
+         }
+      ],
+      "totalH": 10.0,
+      "articles": {
+         "nbArticles": 28,
+         "url": "https://hal.science/search/index/?q=*&authIdPerson_i=169533"
+      }
+   }
+]
